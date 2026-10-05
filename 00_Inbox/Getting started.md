@@ -57,7 +57,7 @@ After the research set, start an agent from the cockpit's NEW AGENT: it starts i
 This step is a **how-to**. `20_MDPapers/` already contains six converted papers (Onimaru et al. 2016, plus Tanaka et al. 2024, Inoue and Kondo 2016, Imada et al. 2025, Nojoomi et al. 2018, and Seelinger et al. 2024 — all CC BY 4.0, see [[Paper sources and licenses]]). **You may use the bundled converted papers**, so you can go straight to step 4 without converting anything. To convert your own paper, follow the steps below (and if you have no Mistral key, step 4 still lets you choose "convert the PDF locally first" or "use a bundled converted paper").
 
 1. In Obsidian Settings → Community plugins → **PDF Mistral (Hi-Res)**, enter your Mistral API key. Keep the key in Obsidian's settings only — never in chat or notes
-2. A PDF you can try converting is in `10_Reference/Papers/` (Guo et al. 2024; [[Paper sources and licenses]]). The bundled converted Markdown files are in `20_MDPapers/`, and sample reading notes (Onimaru et al. 2016 and Tanaka et al. 2024) are in `10_Reference/Notes/`. To use your own paper, drop the PDF into this vault
+2. A PDF you can try converting is in `10_Reference/Papers/` (Guo et al. 2024; [[Paper sources and licenses]]). The bundled converted Markdown files are in `20_MDPapers/`, and the digest-paper sample note (Onimaru et al. 2016) is in `10_Reference/Notes/`. `=tanakaFabricSoftPneumatic2024=.md` in the same place (Tanaka et al. 2024) is an example reading note, not a digest-paper output. To use your own paper, drop the PDF into this vault
 3. Open the PDF, then run "Convert PDF to Markdown with images" from the command palette (`Cmd+P` / `Ctrl+P`)
 
 **Check**: the paper's Markdown appears in `20_MDPapers/`, and its figures appear in `20_MDPapers/pdf-mistral-images/`.
@@ -87,7 +87,7 @@ An agent that works in this vault registers itself with ORRERY Mail before its f
 
 Save notes to **`10_Reference/Notes`**, per this vault's rules (`CLAUDE.md`). Pointing elsewhere makes the note harder for the `/log` agent and the Daily Note to find.
 
-**Check**: in the cockpit, Mail messages flow back and forth between the writer and the reviewer. When it finishes, you'll have `10_Reference/Notes/<citekey>-<hash>/=<citekey>=.md` (e.g. `=GuoSelfregulatedReversalDeformation2024=.md`), with a line near the end naming which agent pair reviewed it. Since Onimaru 2016 and Tanaka 2024 already have sample notes, if you pick one of those two, your own run lands alongside the sample as `…-r2`, so you can compare them. The note's `review_status` becomes `checked` (`checked` means the reviewer confirmed the checked points against the text and figures — it is not a guarantee that the paper itself is correct).
+**Check**: in the cockpit, Mail messages flow back and forth between the writer and the reviewer. When it finishes, you'll have `10_Reference/Notes/<citekey>-<hash>/=<citekey>=.md` (e.g. `=GuoSelfregulatedReversalDeformation2024=.md`), with a line near the end naming which agent pair reviewed it. Since Onimaru 2016 already has a sample note, if you pick it, your own run lands alongside the sample as `…-r2`, so you can compare them. If you pick Tanaka 2024, your note is created in its own folder, so you can compare it with the example note. The note's `review_status` becomes `checked` (`checked` means the reviewer confirmed the checked points against the text and figures — it is not a guarantee that the paper itself is correct).
 
 See the digest-paper README for details.
 
