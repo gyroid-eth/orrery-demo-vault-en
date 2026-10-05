@@ -10,12 +10,12 @@ Any agent or dashboard launched from Windows Terminal keeps running in the backg
 
 ###### 0. Open this vault
 
-1. Put this vault's folder somewhere
+1. Put this vault's folder somewhere. If you ran the research set (step 1 below), it is already placed:
 	- Mac: e.g. `~/Documents/orrery-demo-vault-en`
 	- Windows: e.g. `C:\Users\<you>\Documents\orrery-demo-vault-en`
 	- WSL (same folder as Windows): `/mnt/c/Users/<you>/Documents/orrery-demo-vault-en`; check with `wslpath -u 'C:\Users\<you>\Documents\orrery-demo-vault-en'`
 2. In Obsidian, "Open folder as vault" → select this folder
-3. If asked "Trust author and enable plugins?", choose "Trust"
+3. If asked "Trust author and enable plugins?", choose "Trust author and enable plugins"
 
 **Open this vault as-is.** The Kanban task board, the Daily Note listings, and the paper conversion all run on plugins bundled with this vault. If you move the contents into your own vault instead, do the following first (otherwise task notes won't render as Kanban, the Daily Note listings will come up empty, and so on):
 
@@ -28,22 +28,23 @@ Any agent or dashboard launched from Windows Terminal keeps running in the backg
 
 ###### 1. Install ORRERY
 
-On Mac, use Terminal; on Windows, use WSL2 Ubuntu. Run these two lines in order:
+Install ORRERY by following its install guide for your computer, [Mac](https://github.com/gyroid-eth/orrery/blob/master/docs/en/install.md#mac) or [Windows 11](https://github.com/gyroid-eth/orrery/blob/master/docs/en/install.md#windows-11) (it includes Claude Code). That installs ORRERY itself (the agent roster, ORRERY Mail, the cockpit) and opens the cockpit in your browser.
+
+Then run the research set (on Mac in Terminal; on Windows in the WSL2 Ubuntu window):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/gyroid-eth/orrery/master/scripts/get.sh | bash
 curl -fsSL https://raw.githubusercontent.com/gyroid-eth/orrery/master/scripts/research-set.sh | bash -s -- --lang en
 ```
 
-The first line installs ORRERY itself (the agent roster, ORRERY Mail, the cockpit) and opens the cockpit in your browser. The second line (the research set) installs the digest-paper add-on, creates this vault if it's missing, and finally prints the folder to open in Obsidian and a ready-to-paste prompt for your agent (with the paths filled in). If you've already set up this vault, the second line just installs the add-on without touching it. Manual setup steps are in each repository's README.
+The research set installs the digest-paper add-on, creates this vault if it's missing, makes this vault the work folder of the agents you start from then on, and finally prints the folder to open in Obsidian and a ready-to-paste prompt for your agent (with the paths filled in). If you've already set up this vault, it just installs the add-on without touching your notes. Manual setup steps are in each repository's README.
 
 **Check**: the launched agents' names appear on the left side of the cockpit.
 
 ###### 2. Verify communication with a word-chain exercise
 
-Launch Claude Code in this vault's folder (`cd <vault path>` → `claude`; from the cockpit's NEW AGENT, enter the vault path as the working folder), and ask:
+After the research set, start an agent from the cockpit's NEW AGENT: it starts in this vault by default. Then ask:
 
-**Always launch the agent from this vault's folder.** This vault's `/addtodo`, `/adddone`, `/log`, and its rules (`CLAUDE.md`/`AGENTS.md`) are only visible to an agent launched from this folder. Launching from a different folder (like `~/orrery`) means these won't show up.
+**The agent has to work in this vault's folder.** This vault's `/addtodo`, `/adddone`, `/log`, and its rules (`CLAUDE.md`/`AGENTS.md`) are only visible to an agent that works in this folder. An agent that was already running before you ran the research set stays on its old folder, so exit it and start a new one. If you start Claude Code yourself in a terminal, use `cd <vault path>` → `claude`. Launching from a different folder (like `~/orrery`) means these won't show up.
 
 > Use /delegate to spawn a child, and play three rounds of a word-chain game over Mail
 
@@ -70,7 +71,7 @@ On Mistral's free plan, requests can fail with 429 (Too Many Requests) even if y
 digest-paper is an ORRERY add-on. One agent drafts the note, a second agent reviews it against the text and figures, and the two exchange findings directly over ORRERY Mail. With both Claude and Codex available, Claude writes and Codex reviews; with only one, two agents of the same kind split the roles (the note then states that the review wasn't cross-checked by a different vendor's model).
 
 1. The add-on was installed by the one-liner in step 1 (the research set)
-2. Paste the prompt shown at the end of the research set setup into an agent launched from this vault. There are three variants:
+2. Paste the prompt shown at the end of the research set setup into an agent that works in this vault. There are three variants:
 	- (a) from a paper already converted with pdf-mistral
 	- (b) **no Mistral key**: convert the PDF locally first (e.g. Guo et al. 2024 in `10_Reference/Papers/`; the PDF never leaves the machine. Figures come from per-caption crops plus whole-page images, coarser than pdf-mistral. Scanned PDFs won't work)
 	- (c) from the already-converted Onimaru et al. 2016 (the fastest option)
@@ -82,7 +83,7 @@ digest-paper is an ORRERY add-on. One agent drafts the note, a second agent revi
 	> Save to: `<vault path>/10_Reference/Notes`
 	> Write the note in English.
 
-Starting `claude` from this vault's folder makes the agent register itself with ORRERY Mail before its first action (you may briefly see something like "no agent identity yet" — that's expected; once registration finishes it proceeds on its own, so just wait).
+An agent that works in this vault registers itself with ORRERY Mail before its first action (you may briefly see something like "no agent identity yet" — that's expected; once registration finishes it proceeds on its own, so just wait).
 
 Save notes to **`10_Reference/Notes`**, per this vault's rules (`CLAUDE.md`). Pointing elsewhere makes the note harder for the `/log` agent and the Daily Note to find.
 
