@@ -4,7 +4,7 @@ tags: [claude]
 
 ## What this is
 
-An Obsidian vault for the ORRERY demo. (Japanese version: [orrery-demo-vault](https://github.com/gyroid-eth/orrery-demo-vault).) It pairs ORRERY (a tool for running and observing several AI agents from one screen) with Obsidian's note-taking and task management, so you can try the following yourself:
+An Obsidian vault for the ORRERY demo. (Japanese version: [orrery-demo-vault](https://github.com/gyroid-eth/orrery-demo-vault).) It pairs ORRERY (a tool for running and observing multiple AI agents from one screen) with Obsidian's note-taking and task management, so you can try the following yourself:
 
 1. Install ORRERY and have Claude Code and Codex verify communication with a word-chain exercise
 2. Convert a paper PDF to Markdown and figures with pdf-mistral
