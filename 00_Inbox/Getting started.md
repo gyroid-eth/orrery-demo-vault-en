@@ -74,7 +74,7 @@ digest-paper is an ORRERY add-on. One agent drafts the note, a second agent revi
 2. Paste the prompt shown at the end of the research set setup into an agent that works in this vault. There are three variants:
 	- (a) from a paper already converted with pdf-mistral
 	- (b) **no Mistral key**: convert the PDF locally first (e.g. Guo et al. 2024 in `10_Reference/Papers/`; the PDF never leaves the machine. Figures come from per-caption crops plus whole-page images, coarser than pdf-mistral. Scanned PDFs won't work)
-	- (c) pick one of the six bundled converted papers (Onimaru plus five others, all in `20_MDPapers/`)  — the fastest option. The request that the research set prints for (c) names Onimaru, so to use one of the other five, replace the Paper line of the request with the full path of the `.md` you chose (`<vault path>/20_MDPapers/<paper name>.md`)
+	- (c) pick one of the six bundled converted papers (Onimaru plus five others, all in `20_MDPapers/`) — the fastest option. The request that the research set prints for (c) names Onimaru, so to use one of the other five, replace the Paper line of the request with the full path of the `.md` you chose (`<vault path>/20_MDPapers/<paper name>.md`)
 	
 	If you've closed that screen, ask in this form (substitute your own paths):
 	> Use digest-paper to write a reading note for this paper.
