@@ -32,3 +32,11 @@ Bundled papers:
 
 - Onimaru et al. 2016, *Nature Communications* 7, 11582 (https://doi.org/10.1038/ncomms11582) — CC BY 4.0. See `10_Reference/Papers/Paper sources and licenses.md` for details
 - Guo et al. 2024, *Nature Communications* 15, 1694 (https://doi.org/10.1038/s41467-024-46100-6) — CC BY 4.0. See the same note for details
+- Tanaka et al. 2024, *Scientific Reports* 14, 19175 (https://doi.org/10.1038/s41598-024-69450-z) — CC BY 4.0. Bundled as a version converted to Markdown with its figures extracted (`20_MDPapers/`), plus a sample reading note (`10_Reference/Notes/`)
+- Inoue and Kondo 2016, *Scientific Reports* 6, 33689 (https://doi.org/10.1038/srep33689) — CC BY 4.0. Bundled as a version converted to Markdown with its figures extracted (`20_MDPapers/`)
+- Imada et al. 2025, *Extreme Mechanics Letters* 77, 102337 (https://doi.org/10.1016/j.eml.2025.102337) — CC BY 4.0. Same as above
+- Nojoomi et al. 2018, *Nature Communications* 9, 3705 (https://doi.org/10.1038/s41467-018-05569-8) — CC BY 4.0. Same as above
+- Seelinger et al. 2024, *Polymers* 16(10), 1402 (https://doi.org/10.3390/polym16101402) — CC BY 4.0. Same as above
+- The `20_MDPapers/` version of Onimaru et al. 2016 is likewise converted to Markdown with its figures extracted
+
+See `10_Reference/Papers/Paper sources and licenses.md` for sources and changes in detail
