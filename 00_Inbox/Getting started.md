@@ -63,6 +63,8 @@ Launch Claude Code in this vault's folder (`cd <vault path>` → `claude`; from 
 
 The PDF is sent to Mistral. For unpublished papers or collaborative material, follow your institution's policies.
 
+On Mistral's free plan, requests can fail with 429 (Too Many Requests) even if you haven't used any credits, so pdf-mistral doesn't work. Adding $10 of credit resolves it. Without credit, use the no-key route in step 4.
+
 ###### 4. Have an agent team write a reading note with digest-paper
 
 digest-paper is an ORRERY add-on. One agent drafts the note, a second agent reviews it against the text and figures, and the two exchange findings directly over ORRERY Mail. With both Claude and Codex available, Claude writes and Codex reviews; with only one, two agents of the same kind split the roles (the note then states that the review wasn't cross-checked by a different vendor's model).
