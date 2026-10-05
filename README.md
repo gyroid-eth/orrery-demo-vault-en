@@ -18,7 +18,7 @@ Contains no personal information. Works on both Mac and Windows (WSL2).
 Do these in order. On Windows 11, ORRERY runs inside WSL2 Ubuntu and Obsidian runs on the Windows side; each step below says which.
 
 1. **Install Obsidian**: [0. Obsidian](https://github.com/gyroid-eth/orrery/blob/master/docs/en/install.md#0-obsidian-when-you-use-it) (skip if you already have it)
-2. **Install ORRERY**: [Mac](https://github.com/gyroid-eth/orrery/blob/master/docs/en/install.md#mac) or [Windows 11](https://github.com/gyroid-eth/orrery/blob/master/docs/en/install.md#windows-11) (Claude Code included)
+2. **Install ORRERY**: [Mac](https://github.com/gyroid-eth/orrery/blob/master/docs/en/install.md#mac) or [Windows 11](https://github.com/gyroid-eth/orrery/blob/master/docs/en/install.md#windows-11), through the end of that section (it includes Claude Code or Codex). It ends by pointing to "Using it with Obsidian"; do not follow that, and come back here for step 3 instead (step 3 is the same thing for this vault)
 3. **Install the research set**: one line (on Windows, in the Ubuntu window). It installs digest-paper, **places this vault** in your Documents folder, and makes it the work folder of the agents you start from then on (see [Using it with Obsidian](https://github.com/gyroid-eth/orrery/blob/master/docs/en/install.md#using-it-with-obsidian)):
 
    ```bash

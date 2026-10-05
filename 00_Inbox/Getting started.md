@@ -38,7 +38,7 @@ curl -fsSL https://raw.githubusercontent.com/gyroid-eth/orrery/master/scripts/re
 
 The research set installs the digest-paper add-on, creates this vault if it's missing, makes this vault the work folder of the agents you start from then on, and finally prints the folder to open in Obsidian and a ready-to-paste prompt for your agent (with the paths filled in). If you've already set up this vault, it just installs the add-on without touching your notes. Manual setup steps are in each repository's README.
 
-**Check**: the launched agents' names appear on the left side of the cockpit.
+**Check**: the cockpit opens in your browser, and the research set's closing summary has a line `work folder  the vault (…)`, which means this vault is where agents work from now on. No agent has been started yet; you start one in step 2.
 
 ###### 2. Verify communication with a word-chain exercise
 
