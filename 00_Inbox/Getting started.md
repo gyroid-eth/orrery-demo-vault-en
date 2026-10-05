@@ -28,7 +28,7 @@ Any agent or dashboard launched from Windows Terminal keeps running in the backg
 
 ###### 1. Install ORRERY
 
-Install ORRERY by following its install guide for your computer, [Mac](https://github.com/gyroid-eth/orrery/blob/master/docs/en/install.md#mac) or [Windows 11](https://github.com/gyroid-eth/orrery/blob/master/docs/en/install.md#windows-11) (it includes Claude Code). That installs ORRERY itself (the agent roster, ORRERY Mail, the cockpit) and opens the cockpit in your browser.
+**If you already did steps 2 and 3 of the README, you can skip this step.** Install ORRERY by following its install guide for your computer, [Mac](https://github.com/gyroid-eth/orrery/blob/master/docs/en/install.md#mac) or [Windows 11](https://github.com/gyroid-eth/orrery/blob/master/docs/en/install.md#windows-11) (it includes Claude Code). That installs ORRERY itself (the agent roster, ORRERY Mail, the cockpit) and opens the cockpit in your browser.
 
 Then run the research set (on Mac in Terminal; on Windows in the WSL2 Ubuntu window):
 
