@@ -29,6 +29,7 @@ Already-converted papers are bundled (`20_MDPapers/`). We checked on the publish
 - DOI: https://doi.org/10.1038/s41598-024-69450-z
 - License: Creative Commons Attribution 4.0 International (CC BY 4.0) https://creativecommons.org/licenses/by/4.0/
 - File: `20_MDPapers/Tanaka et al. 2024 - Fabric soft pneumatic actuators with programmable turing pattern textures.md`, plus the figures it references (`20_MDPapers/pdf-mistral-images/`)
+- PDF: `10_Reference/Papers/Tanaka et al. 2024 - Fabric soft pneumatic actuators with programmable turing pattern textures.pdf` (PDF obtained from the publisher's site, unmodified)
 - Changes: the PDF was converted to Markdown with pdf-mistral (Mistral OCR) and its figures were extracted. The publisher's layout is not reproduced, and OCR errors may remain. The content of the text was not altered. An example reading note for this paper is in `10_Reference/Notes/`
 
 ###### Inoue and Kondo 2016
@@ -37,6 +38,7 @@ Already-converted papers are bundled (`20_MDPapers/`). We checked on the publish
 - DOI: https://doi.org/10.1038/srep33689
 - License: Creative Commons Attribution 4.0 International (CC BY 4.0) https://creativecommons.org/licenses/by/4.0/
 - File: `20_MDPapers/Inoue and Kondo 2016 - Suture pattern formation in ammonites and the unknown rear mantle structure.md`, plus the figures it references (`20_MDPapers/pdf-mistral-images/`)
+- PDF: `10_Reference/Papers/Inoue and Kondo 2016 - Suture pattern formation in ammonites and the unknown rear mantle structure.pdf` (PDF obtained from the publisher's site, unmodified)
 - Changes: the PDF was converted to Markdown with pdf-mistral (Mistral OCR) and its figures were extracted. The publisher's layout is not reproduced, and OCR errors may remain. The content of the text was not altered
 
 ###### Imada et al. 2025
@@ -45,6 +47,7 @@ Already-converted papers are bundled (`20_MDPapers/`). We checked on the publish
 - DOI: https://doi.org/10.1016/j.eml.2025.102337
 - License: Creative Commons Attribution 4.0 International (CC BY 4.0) https://creativecommons.org/licenses/by/4.0/
 - File: `20_MDPapers/Imada et al. 2025 - Kinematic folding propagation in degree-4 origami strips.md`, plus the figures it references (`20_MDPapers/pdf-mistral-images/`)
+- PDF: `10_Reference/Papers/Imada et al. 2025 - Kinematic folding propagation in degree-4 origami strips.pdf` (PDF obtained from the publisher's site, unmodified)
 - Changes: the PDF was converted to Markdown with pdf-mistral (Mistral OCR) and its figures were extracted. The publisher's layout is not reproduced, and OCR errors may remain. The content of the text was not altered
 
 ###### Nojoomi et al. 2018
@@ -53,6 +56,7 @@ Already-converted papers are bundled (`20_MDPapers/`). We checked on the publish
 - DOI: https://doi.org/10.1038/s41467-018-05569-8
 - License: Creative Commons Attribution 4.0 International (CC BY 4.0) https://creativecommons.org/licenses/by/4.0/
 - File: `20_MDPapers/Nojoomi et al. 2018 - Bioinspired 3D structures with programmable morphologies and motions.md`, plus the figures it references (`20_MDPapers/pdf-mistral-images/`)
+- PDF: `10_Reference/Papers/Nojoomi et al. 2018 - Bioinspired 3D structures with programmable morphologies and motions.pdf` (PDF obtained from the publisher's site, unmodified)
 - Changes: the PDF was converted to Markdown with pdf-mistral (Mistral OCR) and its figures were extracted. The publisher's layout is not reproduced, and OCR errors may remain. The content of the text was not altered
 
 ###### Seelinger et al. 2024
@@ -61,6 +65,7 @@ Already-converted papers are bundled (`20_MDPapers/`). We checked on the publish
 - DOI: https://doi.org/10.3390/polym16101402
 - License: Creative Commons Attribution 4.0 International (CC BY 4.0) https://creativecommons.org/licenses/by/4.0/
 - File: `20_MDPapers/Seelinger et al. 2024 - Pinecone-Inspired Humidity-Responsive Paper Actuators with Bilayer Structure.md`, plus the figures it references (`20_MDPapers/pdf-mistral-images/`)
+- PDF: `10_Reference/Papers/Seelinger et al. 2024 - Pinecone-Inspired Humidity-Responsive Paper Actuators with Bilayer Structure.pdf` (PDF obtained from the publisher's site, unmodified)
 - Changes: the PDF was converted to Markdown with pdf-mistral (Mistral OCR) and its figures were extracted. The publisher's layout is not reproduced, and OCR errors may remain. The content of the text was not altered
 
 The same changes apply to the converted Onimaru et al. 2016 Markdown (above, in `20_MDPapers/`). The Tanaka et al. 2024 reading note (`10_Reference/Notes/=tanakaFabricSoftPneumatic2024=.md`) is a derived summary-and-commentary note based on that paper, and it is shared under the same CC BY 4.0 (credit the original authors). It is an English translation of the Japanese edition.

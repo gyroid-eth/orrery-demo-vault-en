@@ -1,30 +1,14 @@
 Bundled Obsidian community plugins (included ready-to-use; see each plugin's own repository for its license):
 
-- Auto Note Mover 1.2.0 — https://github.com/farux/
-- Automatic Table Of Contents 1.7.3 — https://github.com/johansatge
 - Calendar 1.5.10 — https://github.com/liamcain/
 - Dataview 0.5.68 — https://github.com/blacksmithgu
-- Folder Note 0.7.3 — https://github.com/xpgo/obsidian-folder-note
-- Highlightr 1.2.2 — https://github.com/chetachiezikeuzor
-- Image Converter 1.4.6 — https://github.com/xryul
-- Metadata Menu 0.8.12 — https://github.com/mdelobelle
-- Charts 3.9.0 — https://github.com/phibr0
-- Excalidraw 2.19.2 — https://excalidraw-obsidian.online
-- Iconize 2.14.7 — https://florianwoelki.com/
 - Kanban 2.0.51 — https://github.com/mgmeyers/obsidian-kanban
-- Meta Bind 1.4.6 — https://www.moritzjung.dev/
-- Tracker 1.17.0 — pyrochlore
 - Omnisearch 1.28.0 — https://github.com/scambier/obsidian-omnisearch
-- Open in Terminal 0.4.0 — https://github.com/Feng6611
 - PDF++ 0.40.31 — https://github.com/RyotaUshio
 - PDF Mistral (Hi-Res) 1.1.1 — https://github.com/gyroid-eth/obsidian-pdf-mistral-hires (MIT. A fork of Mekann's pdf-mistral. Bundles the Release's main.js / manifest.json / styles.css plus the pdf.js worker used for high-resolution figure extraction, `pdf.worker.min.js` (pdfjs-dist 3.11.174, Mozilla, Apache-2.0). The API key in `data.json` is left empty)
-- Quick Explorer 0.2.14 — https://github.com/pjeby
 - QuickAdd 2.9.4 — https://bagerbach.com
-- Recent Files 1.7.6 — https://grosinger.net
 - Task Done At 1.5.0 — Claude Code
 - Templater 2.17.1 — https://github.com/SilentVoid13
-- Terminal 3.21.0 — https://github.com/polyipseity
-- Text Extractor 0.7.0 — https://github.com/scambier/obsidian-text-extractor
 
 Task Done At is a Biomatter Lab original (with patches for startup caching, local-date handling, and immediate Dataview refresh).
 
@@ -32,8 +16,8 @@ Bundled papers:
 
 - Onimaru et al. 2016, *Nature Communications* 7, 11582 (https://doi.org/10.1038/ncomms11582) — CC BY 4.0. See `10_Reference/Papers/Paper sources and licenses.md` for details
 - Guo et al. 2024, *Nature Communications* 15, 1694 (https://doi.org/10.1038/s41467-024-46100-6) — CC BY 4.0. See the same note for details
-- Tanaka et al. 2024, *Scientific Reports* 14, 19175 (https://doi.org/10.1038/s41598-024-69450-z) — CC BY 4.0. Bundled as a version converted to Markdown with its figures extracted (`20_MDPapers/`), plus an example reading note (`10_Reference/Notes/`)
-- Inoue and Kondo 2016, *Scientific Reports* 6, 33689 (https://doi.org/10.1038/srep33689) — CC BY 4.0. Bundled as a version converted to Markdown with its figures extracted (`20_MDPapers/`)
+- Tanaka et al. 2024, *Scientific Reports* 14, 19175 (https://doi.org/10.1038/s41598-024-69450-z) — CC BY 4.0. Bundled as the publisher's PDF (`10_Reference/Papers/`), a version converted to Markdown with its figures extracted (`20_MDPapers/`), and an example reading note (`10_Reference/Notes/`)
+- Inoue and Kondo 2016, *Scientific Reports* 6, 33689 (https://doi.org/10.1038/srep33689) — CC BY 4.0. Bundled as the publisher's PDF (`10_Reference/Papers/`) and a version converted to Markdown with its figures extracted (`20_MDPapers/`)
 - Imada et al. 2025, *Extreme Mechanics Letters* 77, 102337 (https://doi.org/10.1016/j.eml.2025.102337) — CC BY 4.0. Same as above
 - Nojoomi et al. 2018, *Nature Communications* 9, 3705 (https://doi.org/10.1038/s41467-018-05569-8) — CC BY 4.0. Same as above
 - Seelinger et al. 2024, *Polymers* 16(10), 1402 (https://doi.org/10.3390/polym16101402) — CC BY 4.0. Same as above

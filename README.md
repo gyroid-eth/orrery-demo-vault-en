@@ -40,8 +40,8 @@ If you move the contents into your own existing vault, you won't get the bundled
 - `01_Planning/Tasks.md` — the Kanban task board. Checking a card stamps a completion time and moves it to the Done column. Add cards via "Add task" in the command palette (`30_Templates/Scripts/addTaskQA.js`) or by asking an agent with `/addtodo`/`/adddone`
 - `02_DailyNotes/` — daily records. Template at `30_Templates/Daily Note.md` (auto-lists open tasks, tasks completed today, today's work logs, and notes created/edited today)
 - `05_Agents/` — logs from working with AI (`LOG_YYYY-MM-DDTHHmm Title.md`), created with `/log`
-- `10_Reference/Papers/` — sample papers (CC BY 4.0), their sources, and a table of licenses (the bundled converted papers are listed too)
-- `10_Reference/Notes/` — where digest-paper saves its reading notes. A sample note for Onimaru et al. 2016 is included, along with an example reading note for Tanaka et al. 2024 (`=tanakaFabricSoftPneumatic2024=.md`)
+- `10_Reference/Papers/` — the PDFs of all 7 sample papers (CC BY 4.0), their sources, and a table of licenses
+- `10_Reference/Notes/` — where digest-paper saves its reading notes. A sample note for Onimaru et al. 2016 (`=OnimaruFintolimbTransitionReorganization2016=.md`) is included, along with an example reading note for Tanaka et al. 2024 (`=tanakaFabricSoftPneumatic2024=.md`)
 - `20_MDPapers/` — Markdown and figures produced by pdf-mistral. Six converted papers are bundled (Onimaru et al. 2016, Tanaka et al. 2024, Inoue and Kondo 2016, Imada et al. 2025, Nojoomi et al. 2018, Seelinger et al. 2024; CC BY 4.0)
 - `CLAUDE.md` / `AGENTS.md` — the rules AI agents follow in this vault (Claude Code reads `CLAUDE.md`, Codex reads `AGENTS.md`; same content)
 - `LICENSE` — this vault's notes, templates, and scripts are MIT-licensed. The bundled plugins and papers are excluded and follow their own licenses (`NOTICE.md`)
