@@ -25,6 +25,8 @@ Do these in order. On Windows 11, ORRERY runs inside WSL2 Ubuntu and Obsidian ru
    curl -fsSL https://raw.githubusercontent.com/gyroid-eth/orrery/master/scripts/research-set.sh | bash -s -- --lang en
    ```
 
+   If you use Codex, do [Install the Codex plugin](https://github.com/gyroid-eth/orrery/blob/master/docs/en/install.md#install-the-codex-plugin-if-you-use-codex) after this step.
+
 4. **Open the vault in Obsidian**: "Open folder as vault" → the vault in your Documents folder (`~/Documents/orrery-demo-vault-en` on a Mac; on Windows, the Windows Documents folder, shown in Windows form at the end of step 3). If asked "Trust author and enable plugins?", choose "Trust author and enable plugins"
 5. **Open `00_Inbox/Getting started.md`** in the vault and work through it top to bottom
 
