@@ -4,6 +4,7 @@ Bundled Obsidian community plugins (included ready-to-use; see each plugin's own
 - Dataview 0.5.68 — https://github.com/blacksmithgu
 - Kanban 2.0.51 — https://github.com/mgmeyers/obsidian-kanban
 - Omnisearch 1.28.0 — https://github.com/scambier/obsidian-omnisearch
+- PDF++ 0.40.31 — https://github.com/RyotaUshio
 - PDF Mistral (Hi-Res) 1.1.1 — https://github.com/gyroid-eth/obsidian-pdf-mistral-hires (MIT. A fork of Mekann's pdf-mistral. Bundles the Release's main.js / manifest.json / styles.css plus the pdf.js worker used for high-resolution figure extraction, `pdf.worker.min.js` (pdfjs-dist 3.11.174, Mozilla, Apache-2.0). The API key in `data.json` is left empty)
 - QuickAdd 2.9.4 — https://bagerbach.com
 - Task Done At 1.5.0 — Claude Code
