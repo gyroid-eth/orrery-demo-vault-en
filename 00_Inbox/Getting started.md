@@ -28,7 +28,7 @@ Any agent or dashboard launched from Windows Terminal keeps running in the backg
 
 ###### 1. Install ORRERY
 
-**If you already did steps 2 and 3 of the README, you can skip this step.** Install ORRERY by following its install guide for your computer, [Mac](https://github.com/gyroid-eth/orrery/blob/master/docs/en/install.md#mac) or [Windows 11](https://github.com/gyroid-eth/orrery/blob/master/docs/en/install.md#windows-11) (it includes Claude Code). That installs ORRERY itself (the agent roster, ORRERY Mail, the cockpit) and opens the cockpit in your browser.
+**If you already did steps 2 and 3 of the README, you can skip this step.** Install ORRERY by following its install guide for your computer, [Mac](https://github.com/gyroid-eth/orrery/blob/master/docs/en/install.md#mac) or [Windows 11](https://github.com/gyroid-eth/orrery/blob/master/docs/en/install.md#windows-11) (it includes Codex and Claude Code). That installs ORRERY itself (the agent roster, ORRERY Mail, the cockpit) and opens the cockpit in your browser.
 
 Then run the research set (on Mac in Terminal; on Windows in the WSL2 Ubuntu window):
 
@@ -38,17 +38,19 @@ curl -fsSL https://raw.githubusercontent.com/gyroid-eth/orrery/master/scripts/re
 
 The research set installs the digest-paper add-on, creates this vault if it's missing, makes this vault the work folder of the agents you start from then on, and finally prints the folder to open in Obsidian and a ready-to-paste prompt for your agent (with the paths filled in). If you've already set up this vault, it just installs the add-on without touching your notes. Manual setup steps are in each repository's README.
 
+If you use Codex, do [Install the Codex plugin](https://github.com/gyroid-eth/orrery/blob/master/docs/en/install.md#install-the-codex-plugin-if-you-use-codex) **after the research set** (you need it to resume a finished Codex agent).
+
 **Check**: the cockpit opens in your browser, and the research set's closing summary has a line `work folder  the vault (…)`, which means this vault is where agents work from now on. If you already ran the research set from the README, the line says `work folder  already the vault`, which is just as good. No agent has been started yet; you start one in step 2.
 
 ###### 2. Verify communication with a word-chain exercise
 
 After the research set, start an agent from the cockpit's NEW AGENT: it starts in this vault by default. Then ask:
 
-**The agent has to work in this vault's folder.** This vault's `/addtodo`, `/adddone`, `/log`, and its rules (`CLAUDE.md`/`AGENTS.md`) are only visible to an agent that works in this folder. An agent that was already running before you ran the research set stays on its old folder, so exit it and start a new one. If you start Claude Code yourself in a terminal, use `cd <vault path>` → `claude`. Launching from a different folder (like `~/orrery`) means these won't show up.
+**The agent has to work in this vault's folder.** This vault's `/addtodo`, `/adddone`, `/log`, and its rules (`CLAUDE.md`/`AGENTS.md`) are only visible to an agent that works in this folder. An agent that was already running before you ran the research set stays on its old folder, so exit it and start a new one. If you start an agent yourself in a terminal, use `cd <vault path>` → `codex` (or `claude`). Launching from a different folder (like `~/orrery`) means these won't show up.
 
-> Use /delegate to spawn a child, and play three rounds of a word-chain game over Mail
+> Use $delegate to spawn a child, and play three rounds of a word-chain game over Mail
 
-(If you don't have Codex, a Claude child works fine too)
+That is for a Codex agent. For a Claude Code agent, write `/delegate` instead of `$delegate` (in Codex, a word starting with `/` is one of Codex's own commands). The child can be Codex or Claude.
 
 **Check**: the Mail panel on the right of the cockpit shows the word-chain messages going back and forth. The mini-orrery shows a parent-child link. If it never completes a round, check the ORRERY Telemetry troubleshooting guide.
 
@@ -93,9 +95,11 @@ See the digest-paper README for details.
 
 ###### 5. Save a work log with `/log`
 
-In Claude Code, run:
+In Codex, ask in words (this vault's `AGENTS.md` gives the log format):
 
-> /log wrote a paper note
+> Write a log: wrote a paper note
+
+In Claude Code, run `/log wrote a paper note`.
 
 **Check**: `05_Agents/LOG_<timestamp> wrote a paper note.md` is created, and it appears automatically under "Today's work logs" in today's Daily Note.
 
@@ -104,8 +108,8 @@ In Claude Code, run:
 - On the [[Tasks]] board, check off a finished card. It gets a completion time and moves to the "Done" column
 - Checked cards appear under "Completed today" in today's Daily Note
 - To add something new yourself, press `Ctrl+P` (`Cmd+P` on Mac) and choose "**Add task**." You'll be asked for the task name, due date, and board, and a card is added to the To Do column
-- To ask an agent, say "`/addtodo <task>`" (or "add X to the tasks") in Claude Code
-- Telling an agent "`/adddone <task>`" (or "X is done") moves that card to Done, and it shows up under "Completed today" in today's Daily Note
+- To ask an agent, say "add X to the tasks" (in Claude Code, `/addtodo <task>` also works)
+- Telling an agent "X is done" (in Claude Code, `/adddone <task>`) moves that card to Done, and it shows up under "Completed today" in today's Daily Note
 
 ###### Troubleshooting
 
