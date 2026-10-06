@@ -13,6 +13,7 @@ translated-from: "Japanese edition of this note (orrery-demo-vault)"
 ---
 
 - mdpaper: [[20_MDPapers/Tanaka et al. 2024 - Fabric soft pneumatic actuators with programmable turing pattern textures]]
+- pdf: [[10_Reference/Papers/Tanaka et al. 2024 - Fabric soft pneumatic actuators with programmable turing pattern textures.pdf]]
 
 > [!summary] Bottom line
 > This paper designs fabric pneumatic actuators (FSPAs) that bend or twist when inflated, using material-orientation optimization and an anisotropic reaction-diffusion equation, and builds them out of fabric. The design procedure is the same as in the authors' earlier paper (Tanaka et al. 2023); what is new is the fabrication. Two methods are tried: cutting stiff Dyneema fabric and heat-bonding it to TPU film, and embroidering Kevlar thread. For three target shapes (C-shaped bending, S-shaped bending, and twisting), the authors report that the pressure responses of the prototypes agree well with finite element analysis.

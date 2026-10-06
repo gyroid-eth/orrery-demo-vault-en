@@ -4,7 +4,7 @@ title: "The fin-to-limb transition as the re-organization of a Turing pattern"
 authors: "Koh Onimaru, Luciano Marcon, Marco Musy, Mikiko Tanaka, James Sharpe"
 year: 2016
 doi: "10.1038/ncomms11582"
-source: "/mnt/c/orrery-demo-vault/20_MDPapers/Onimaru et al. 2016 - The fin-to-limb transition as the re-organization of a Turing pattern.md"
+source: "20_MDPapers/Onimaru et al. 2016 - The fin-to-limb transition as the re-organization of a Turing pattern.md"
 language: en
 review_status: checked
 source_check: ocr-and-images
@@ -13,6 +13,9 @@ reviewer: MintEinstein
 run_id: The-fin-to-limb-transition-as-the-re-org-bcaa45bc-20260930T103709
 publish: false
 ---
+
+- mdpaper: [[20_MDPapers/Onimaru et al. 2016 - The fin-to-limb transition as the re-organization of a Turing pattern]]
+- pdf: [[10_Reference/Papers/Onimaru et al. 2016 - The fin-to-limb transition as the re-organization of a Turing pattern.pdf]]
 
 > [!summary] Bottom line
 > The distal nodular elements of the catshark (*Scyliorhinus canicula*) pectoral fin, unlike the stripes of mouse digits, appear as a single row of Sox9 "spots." The authors extend the Bmp–Sox9–Wnt (BSW) Turing network proposed for mouse digit formation with spatial modulation by an Fgf gradient, and show the model qualitatively reproduces this spot pattern and the phenotypes of Bmp/Wnt inhibition — **suggesting** that the diversity of distal fin and limb skeletons could arise from "the spatial re-organization of a deeply conserved Turing mechanism." This is not direct proof of causation but an inference from the match between model predictions and inhibition-experiment phenotypes; the mechanism forming the more proximal, stripe-like elements remains unresolved.
@@ -54,9 +57,9 @@ publish: false
 
 ### Fig. 1 — Time course of Sox9 expression in the catshark pectoral fin
 
-![Fig. 1a](assets/a001.png)
+![[20_MDPapers/pdf-mistral-images/Onimaru et al. 2016 - The fin-to-limb transition as the re-organization of a Turing pattern_img-0.png|700]]
 
-![Fig. 1b](assets/a002.png)
+![[20_MDPapers/pdf-mistral-images/Onimaru et al. 2016 - The fin-to-limb transition as the re-organization of a Turing pattern_img-1.png|700]]
 
 - What it shows: (a) Schematic skeletons of catshark, fossil fins (*Sauripterus*, *Panderichthys*), and mouse forelimb. Red marks the distal elements, with the legend "Distal elements (not homologous)," plus a phylogeny. (b) Top row: five OPT images of Sox9 (i–v, in time order); bottom row: schematics in red showing where each time point's Sox9 maps onto the final skeleton.
 - Panel-to-claim mapping: the bracket in b-ii marks early posterior-distal expression; the white arrowheads in b-iii mark the arc-shaped spot row; the arrowheads in b-iv/v mark the posterior region resolving into spots.
@@ -64,11 +67,11 @@ publish: false
 
 ### Fig. 2 — Bmp and Wnt are out of phase with Sox9
 
-![Fig. 2a](assets/a003.png)
+![[20_MDPapers/pdf-mistral-images/Onimaru et al. 2016 - The fin-to-limb transition as the re-organization of a Turing pattern_img-2.png|700]]
 
-![Fig. 2b](assets/a004.png)
+![[20_MDPapers/pdf-mistral-images/Onimaru et al. 2016 - The fin-to-limb transition as the re-organization of a Turing pattern_img-3.png|700]]
 
-![Fig. 2c](assets/a005.png)
+![[20_MDPapers/pdf-mistral-images/Onimaru et al. 2016 - The fin-to-limb transition as the re-organization of a Turing pattern_img-4.png|700]]
 
 - What it shows: (a) Schematic of the BSW network for mouse digit formation (Bmp→Sox9 activation, Sox9⊣Bmp, Wnt⊣Sox9, Sox9⊣Wnt, Bmp and Wnt self-repression) and a schematic distribution of Bmp (green), Sox9 (red), Wnt (cyan). (b) OPT images of Sox9 and Bmp4, (c) Sox9 and Wnt5b. Top row: whole view; middle row: close-up (arrowheads mark Bmp4/Wnt5b gaps corresponding to Sox9 spots); bottom row: virtual transverse sections.
 - Panel-to-claim mapping: the arrowhead rows in the middle rows of b and c are the evidence for being "out of phase (complementary)." The bottom rows of b show that both the Sox9 spots and the Bmp4 gap sit at the center of the bud (as in mouse).
@@ -76,9 +79,9 @@ publish: false
 
 ### Fig. 3 — Building the fin growth model (selected panels)
 
-![Fig. 3b](assets/a007.png)
+![[20_MDPapers/pdf-mistral-images/Onimaru et al. 2016 - The fin-to-limb transition as the re-organization of a Turing pattern_img-6.png|700]]
 
-![Fig. 3d](assets/a009.png)
+![[20_MDPapers/pdf-mistral-images/Onimaru et al. 2016 - The fin-to-limb transition as the re-organization of a Turing pattern_img-8.png|700]]
 
 - What it shows: (b) A fine triangular mesh discretizing the fin shape at each growth-model time point (with a close-up on the right). (d) Two photographs of the actual fate map made with Indian ink (left: dashed line marks the fin outline; right: an ellipse marks the extent of labeled tissue).
 - Panel-to-claim mapping: (d) is the actual measurement compared against the virtual fate map (Fig. 3c, not included in this note) used to determine the growth map. The anterior–posterior asymmetric growth (posterior expanding more) is based on Supplementary Fig. 4b–e, which can't be read from these two panels alone.
@@ -86,25 +89,25 @@ publish: false
 
 ### Fig. 4 — The Fgf-modulated Turing model reproduces the Sox9 spot pattern
 
-![Fig. 4a](assets/a010.png)
+![[20_MDPapers/pdf-mistral-images/Onimaru et al. 2016 - The fin-to-limb transition as the re-organization of a Turing pattern_img-9.png|700]]
 
-![Fig. 4b](assets/a011.png)
+![[20_MDPapers/pdf-mistral-images/Onimaru et al. 2016 - The fin-to-limb transition as the re-organization of a Turing pattern_img-10.png|700]]
 
-![Fig. 4c left: simulated Fgf gradient](assets/a012.png)
+![[20_MDPapers/pdf-mistral-images/Onimaru et al. 2016 - The fin-to-limb transition as the re-organization of a Turing pattern_img-11.png|700]]
 
-![Fig. 4c centre: Dusp6](assets/a013.png)
+![[20_MDPapers/pdf-mistral-images/Onimaru et al. 2016 - The fin-to-limb transition as the re-organization of a Turing pattern_img-12.png|700]]
 
-![Fig. 4c right: k4–k7 parameter space](assets/a014.png)
+![[20_MDPapers/pdf-mistral-images/Onimaru et al. 2016 - The fin-to-limb transition as the re-organization of a Turing pattern_img-13.png|700]]
 
-![Fig. 4d](assets/a015.png)
+![[20_MDPapers/pdf-mistral-images/Onimaru et al. 2016 - The fin-to-limb transition as the re-organization of a Turing pattern_img-14.png|700]]
 
-![Fig. 4e left: Bmp](assets/a017.png)
+![[20_MDPapers/pdf-mistral-images/Onimaru et al. 2016 - The fin-to-limb transition as the re-organization of a Turing pattern_img-16.png|700]]
 
-![Fig. 4e right: Wnt](assets/a018.png)
+![[20_MDPapers/pdf-mistral-images/Onimaru et al. 2016 - The fin-to-limb transition as the re-organization of a Turing pattern_img-17.png|700]]
 
-![Fig. 4f](assets/a016.png)
+![[20_MDPapers/pdf-mistral-images/Onimaru et al. 2016 - The fin-to-limb transition as the re-organization of a Turing pattern_img-15.png|700]]
 
-![Fig. 4g](assets/a019.png)
+![[20_MDPapers/pdf-mistral-images/Onimaru et al. 2016 - The fin-to-limb transition as the re-organization of a Turing pattern_img-18.png|700]]
 
 - What it shows:
   - (a) The parameterized network (k2: Bmp→Sox9, k3: Wnt⊣Sox9, k4: Sox9⊣Bmp, k7: Sox9⊣Wnt, k5/k9: self-terms).
@@ -119,7 +122,7 @@ publish: false
 
 ### Fig. 5 — The model predicts in vivo perturbation phenotypes
 
-![Fig. 5](assets/a020.png)
+![[20_MDPapers/pdf-mistral-images/Onimaru et al. 2016 - The fin-to-limb transition as the re-organization of a Turing pattern_img-19.png|700]]
 
 - What it shows: rows are control / Bmp inhibition / Wnt inhibition; columns are in silico (a–c), in vivo Sox9 (d–f), and Alcian Blue cartilage staining (g–i). e and f each show "Mild" and "Severe" examples side by side.
 - Panel-to-claim mapping: b (k2 −20%) shows fewer, smaller spots ↔ e shows loss of Sox9 spots ↔ h shows loss of posterior elements and small nodules (arrowheads). c (αW −50%) shows fused spots ↔ f shows a continuous Sox9 domain ↔ i shows continuous or large elements (brackets) and large nodules (arrowheads).
@@ -127,17 +130,17 @@ publish: false
 
 ### Fig. 6 — Comparing fins and limbs (differing roles of Fgf)
 
-![Fig. 6a](assets/a021.png)
+![[20_MDPapers/pdf-mistral-images/Onimaru et al. 2016 - The fin-to-limb transition as the re-organization of a Turing pattern_img-20.png|700]]
 
-![Fig. 6b left: catshark](assets/a022.png)
+![[20_MDPapers/pdf-mistral-images/Onimaru et al. 2016 - The fin-to-limb transition as the re-organization of a Turing pattern_img-21.png|700]]
 
-![Fig. 6b right: mouse](assets/a023.png)
+![[20_MDPapers/pdf-mistral-images/Onimaru et al. 2016 - The fin-to-limb transition as the re-organization of a Turing pattern_img-22.png|700]]
 
-![Fig. 6c left: catshark](assets/a024.png)
+![[20_MDPapers/pdf-mistral-images/Onimaru et al. 2016 - The fin-to-limb transition as the re-organization of a Turing pattern_img-23.png|700]]
 
-![Fig. 6c right: mouse](assets/a025.png)
+![[20_MDPapers/pdf-mistral-images/Onimaru et al. 2016 - The fin-to-limb transition as the re-organization of a Turing pattern_img-24.png|700]]
 
-![Fig. 6c bottom: BSW network](assets/a026.png)
+![[20_MDPapers/pdf-mistral-images/Onimaru et al. 2016 - The fin-to-limb transition as the re-organization of a Turing pattern_img-25.png|700]]
 
 - What it shows: (a) Sox9 in the catshark pectoral fin (stage 30) and mouse digit (E12). (b) Schematic of Sox9 (black) and the proximal-to-distal positional gradient (red→blue); catshark shows a spot row parallel to the margin, mouse shows stripes perpendicular to it, with a larger wavelength distally (bracket). (c) Positional signal (PS) vs. position graphs: in catshark, spots form only between th1 and th2, while in mouse, stripes form across the whole gradient, with the local Fgf level setting the local wavelength (short proximally, long distally).
 - Panel-to-claim mapping: illustrates the proposal (Discussion) that "Fgf's role is to position the spot row in catshark, but to control stripe orientation and wavelength in mouse." This is a model-based proposal, not direct experimental evidence.
